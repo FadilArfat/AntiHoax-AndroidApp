@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Musik">
+
+    <ScrollView
+        android:background="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primaryColor">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/primaryColor">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:background="@color/primaryColor">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilDO">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="DO"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilRE">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="RE"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:background="@color/primaryColor">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilMI">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="MI"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilFA">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="FA"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:background="@color/primaryColor">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilSOL">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="SOL"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilLA">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="LA"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:background="@color/primaryColor">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilSI">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="SI"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primaryTextColor"
+                        android:paddingRight="1dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:onClick="panggilDO2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/secondaryLightColor"
+                            android:gravity="center_horizontal"
+                            android:text="DO2"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/musikgamelan" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "269023074715",
+    "firebase_url": "https://anti-hoax-search.firebaseio.com",
+    "project_id": "anti-hoax-search",
+    "storage_bucket": "anti-hoax-search.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269023074715:android:3d30ee3080f10fbd76e93e",
+        "android_client_info": {
+          "package_name": "com.fadil.antihoaxsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269023074715-cd0dl0hcskboqld64v0mslno41lh02vp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fadil.antihoaxsearch",
+            "certificate_hash": "967cc7750d38a3dca06bd5883ae18b36c0efd97e"
+          }
+        },
+        {
+          "client_id": "269023074715-mkrfemd2ctc39jhmu51st68m3f6us5sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnZ0gm8gia9U7NXYdaY9DPcNp8v-QXbew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269023074715-mkrfemd2ctc39jhmu51st68m3f6us5sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/hiasan_header"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/header" />
+        <LinearLayout
+            android:clipToPadding="true"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/cariBerita"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@color/primaryColor"
+                        android:src="@drawable/ic_cari"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Cari Berita"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightgray"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hanya menampilkan dari situs yang terpercaya"
+                        android:padding="5dp"
+                        android:textColor="@android:color/darker_gray"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:id="@+id/cariFB"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@color/com_facebook_blue"
+                        android:src="@drawable/img_facebook"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Cari Berita Di Facebook"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightgray"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Mencari Berita-Berita hoax yang muncul di facebook"
+                        android:padding="5dp"
+                        android:textColor="@android:color/darker_gray"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:clipToPadding="true"
+            android:gravity="center"
+            android:layout_marginTop="350dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/laporHoax"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@color/red"
+                        android:src="@drawable/ic_report"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Lapor Hoax"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightgray"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lapor Hoax melalui email,dan akan dikirim langsung ke kominfo"
+                        android:padding="5dp"
+                        android:textColor="@android:color/darker_gray"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:id="@+id/caraPake"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@color/secondaryColor"
+                        android:src="@drawable/ic_info"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Cara Penggunaan"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightgray"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Jika bingung silahkan baca cara penggunaan terlebih dahulu"
+                        android:padding="5dp"
+                        android:textColor="@android:color/darker_gray"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+</RelativeLayout>
+
+
+</LinearLayout>

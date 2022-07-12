@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:background="@drawable/background_gradient"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/LayoutInput"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFF"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Privacy Policy"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NF.ID membangun aplikasi Anti Hoax sebagai aplikasi Gratis. LAYANAN ini disediakan oleh NF.ID tanpa biaya dan dimaksudkan untuk digunakan apa adanya.
+
+Halaman ini digunakan untuk memberi tahu pengunjung mengenai kebijakan kami dengan pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan kami.
+
+Jika Anda memilih untuk menggunakan Layanan kami, maka Anda menyetujui pengumpulan dan penggunaan informasi terkait dengan kebijakan ini. Informasi Pribadi yang kami kumpulkan digunakan untuk menyediakan dan meningkatkan Layanan. Kami tidak akan menggunakan atau membagikan informasi Anda kepada siapa pun kecuali sebagaimana dijelaskan dalam Kebijakan Privasi ini.
+
+Istilah yang digunakan dalam Kebijakan Privasi ini memiliki arti yang sama seperti dalam Syarat dan Ketentuan kami, yang dapat diakses di Anti Hoax kecuali ditentukan lain dalam Kebijakan Privasi ini."
+            android:gravity="left"
+            android:textSize="10dp"
+            android:layout_marginTop="10sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Pengumpulan dan Penggunaan Informasi"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NF.ID membangun aplikasi Anti Hoax sebagai aplikasi Gratis. LAYANAN ini disediakan oleh NF.ID tanpa biaya dan dimaksudkan untuk digunakan apa adanya.
+Halaman ini digunakan untuk memberi tahu pengunjung mengenai kebijakan kami dengan pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan kami.
+Jika Anda memilih untuk menggunakan Layanan kami, maka Anda menyetujui pengumpulan dan penggunaan informasi terkait dengan kebijakan ini. Informasi Pribadi yang kami kumpulkan digunakan untuk menyediakan dan meningkatkan Layanan. Kami tidak akan menggunakan atau membagikan informasi Anda kepada siapa pun kecuali sebagaimana dijelaskan dalam Kebijakan Privasi ini.
+Istilah yang digunakan dalam Kebijakan Privasi ini memiliki arti yang sama seperti dalam Syarat dan Ketentuan kami, yang dapat diakses di Anti Hoax kecuali ditentukan lain dalam Kebijakan Privasi ini."
+            android:gravity="left"
+            android:textSize="10dp"
+            android:layout_marginTop="10sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Hubingi Lami"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungi kami
+
+Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi kami, jangan ragu untuk menghubungi kami di nf.idmobile@gmail.com.
+
+Halaman kebijakan privasi ini dibuat di privacypolicytemplate.net dan dimodifikasi / dibuat oleh App Privacy Policy Generator"
+            android:gravity="left"
+            android:textSize="10dp"
+            android:layout_marginTop="10sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

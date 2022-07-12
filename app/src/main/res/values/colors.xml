@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#fdd835</color>
+
+    <color name="colorPrimary">#fdd835</color>
+
+    <color name="primaryLightColor">#ffff6b</color>
+
+    <color name="primaryDarkColor">#c6a700</color>
+    <color name="frag">#FFFCC5</color>
+    <color name="secondaryColor">#ff9800</color>
+    <color name="graylight">#CECECE</color>
+    <color name="startorange">#FF9800</color>
+    <color name="endorange">#FF5722</color>
+    <color name="secondaryLightColor">#ffc947</color>
+
+    <color name="secondaryDarkColor">#c66900</color>
+
+    <color name="circleBorder">#50FFFFFF</color>
+
+    <color name="lightgray">#D3D3D3</color>
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+    <color name="red">#ff0000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
+    <color name="orange_overlay">#66ffa500</color>
+
+    <color name="primaryTextColor1">#000000</color>
+
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="com_facebook_button_color_focused_disabled">#fff</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+
+    <color name="white">#fff</color>
+
+    <color name="dark">#000000</color>
+</resources>

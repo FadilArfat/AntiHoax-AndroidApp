@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Anti Hoax Search</string>
+    <string name="facebook_app_id">1053833844963782</string>
+    <string name="fb_login_protocol_scheme">fb1053833844963782</string>
+    <string name="cancel_login">cancel_login</string>
+    <string name="error_login">error_login</string>
+    <string name="login">Login</string>
+    <string name="register">Daftar</string>
+    <string name="camera_button">Open Camera</string>
+    <string name="gallery_content">YOUR\nPICTURES</string>
+    <string name="delete_question">Confirm delete?</string>
+    <string name="yes_delete">Yes</string>
+    <string name="no_delete">No</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_activity_iklan">IklanActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2767077821626186/7852468853</string>
+    <string name="intersial">ca-app-pub-2767077821626186/6129706539</string>
+
+</resources>
